@@ -7,3 +7,7 @@
 #main-header {
     height: var(--main-header-height);
 }
+
+#main-section {
+    height: calc(100vh - var(--main-header-height));
+}
