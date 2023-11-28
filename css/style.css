@@ -8,6 +8,7 @@
     --dark-white: #F7F7F7;
     --light-gray: #E5E5E5;
     --aside-color: #051E34;
+    --light-gray-hover-color: #808F99;
 
 }
 
@@ -63,6 +64,10 @@
     background-color: var(--aside-color);
 }
 
+.light-gray-hover-color {
+    background-color: var(--light-gray-hover-color);
+}
+
 /* HEADER */
 
 .box-shadow-none:focus{
@@ -82,5 +87,5 @@
 }
 
 .gray-overlay:hover{
-    background-color: var(--gray-color);
+    background-color: var(--light-gray-hover-color);
 }
