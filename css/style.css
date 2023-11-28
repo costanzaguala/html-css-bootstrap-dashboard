@@ -82,10 +82,29 @@
 
 /* MAIN */
 
+
+
 .background-img {
     background-image: url(../img/sidebar-bg.png);
 }
 
 .gray-overlay:hover{
     background-color: var(--light-gray-hover-color);
+}
+
+
+.white-overlay:hover{
+    background-color: var(--dark-white);
+}
+
+#offcanvasdestra{
+    width: 45%;
+}
+
+@media screen and (max-width:992px) {
+
+    #offcanvasdestra{
+        width: 100%;
+    }
+    
 }
