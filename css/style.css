@@ -59,6 +59,10 @@
     background-color: var(--dark-blue);
 }
 
+.aside-color {
+    background-color: var(--aside-color);
+}
+
 /* HEADER */
 
 .box-shadow-none:focus{
@@ -69,4 +73,14 @@
 
 .max-width-30{
     max-width: 30px;
+}
+
+/* MAIN */
+
+.background-img {
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.gray-overlay:hover{
+    background-color: var(--gray-color);
 }
