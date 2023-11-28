@@ -22,6 +22,11 @@
     height: calc(100vh - var(--main-header-height));
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 /* COLORS */
 
 .white-color{
